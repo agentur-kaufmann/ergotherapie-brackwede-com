@@ -1,5 +1,3 @@
-console.log("hellU");
-
 function memberVideo(click, popup, video, src) {
       
       $(click).on('click', function(event) {
@@ -19,7 +17,7 @@ function memberVideo(click, popup, video, src) {
           //console.log($(video)[0].src);
           $(popup)[0].style.display = "none";
       	});
-      });
+        });
     };
     
     function memberImage(click, popup) {
