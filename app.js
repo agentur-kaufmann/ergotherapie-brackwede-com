@@ -1,4 +1,6 @@
-   function memberVideo(click, popup, video, src) {
+console.log("hellU");
+
+function memberVideo(click, popup, video, src) {
       
       $(click).on('click', function(event) {
       	console.clear();
