@@ -88,7 +88,7 @@
      memberVideo("#zehra-bozyigit", "#zehra-bozyigit-popup", "#zehra-bozyigit-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-zehra-bozyigit.webm");
   }
   
-	memberImage("#meera-thavarajah", "#meera-thavarajah-popup");
+    memberImage("#meera-thavarajah", "#meera-thavarajah-popup");
   memberImage("#ulrike", "#ulrike-popup");
   memberImage("#christina-miles", "#christina-miles-popup");
   memberImage("#luise-funke", "#luise-funke-popup");
