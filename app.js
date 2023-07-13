@@ -1,3 +1,5 @@
+console.log("update");
+
 function memberVideo(click, popup, video, src) {
       
       $(click).on('click', function(event) {
