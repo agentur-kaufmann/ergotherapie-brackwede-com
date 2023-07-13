@@ -1,5 +1,3 @@
-console.log("HELLU");
-
 function memberVideo(click, popup, video, src) {
       
       $(click).on('click', function(event) {
@@ -58,22 +56,6 @@ function memberVideo(click, popup, video, src) {
     isIEedge === false
   ) {
      // is Google Chrome
-     memberVideo("#jana-hilmert-thomas", "#jana-hilmert-thomas-popup", "#jana-hilmert-thomas-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-jana-hilmert-thomas.mp4");
-     memberVideo("#dominik-thomas", "#dominik-thomas-popup", "#dominik-thomas-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-dominik-thomas.mp4");
-     memberVideo("#julia", "#julia-popup", "#julia-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-julia.mp4");
-     memberVideo("#heike-schwartze", "#heike-schwartze-popup", "#heike-schwartze-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-heike-schwartze.mp4");
-     memberVideo("#lillian-kehler", "#lillian-kehler-popup", "#lillian-kehler-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-lillian-kehler.mp4");
-     memberVideo("#christiane-schneidewind", "#christiane-schneidewind-popup", "#christiane-schneidewind-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-christiane-schneidewind.mp4");
-     memberVideo("#julia-kretschmar", "#julia-kretschmar-popup", "#julia-kretschmar-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-julia-kretschmar.mp4");
-     memberVideo("#friederike-steckel", "#friederike-steckel-popup", "#friederike-steckel-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-friederike-steckel.mp4");
-     memberVideo("#birte-kopschek", "#birte-kopschek-popup", "#birte-kopschek-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-birte-kopschek.mp4");
-     memberVideo("#selina-scherer", "#selina-scherer-popup", "#selina-scherer-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-selina-scherer.mp4");
-     memberVideo("#kyra-kuchenbecker", "#kyra-kuchenbecker-popup", "#kyra-kuchenbecker-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-kyra-kuchenbecker.mp4");
-     memberVideo("#melanie-schreiber", "#melanie-schreiber-popup", "#melanie-schreiber-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-melanie-schreiber.mp4");
-     memberVideo("#larissa", "#larissa-popup", "#larissa-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-larissa.mp4");
-     memberVideo("#zehra-bozyigit", "#zehra-bozyigit-popup", "#zehra-bozyigit-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-zehra-bozyigit.mp4");
-  } else { 
-     // not Google Chrome
      memberVideo("#jana-hilmert-thomas", "#jana-hilmert-thomas-popup", "#jana-hilmert-thomas-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-jana-hilmert-thomas.webm");
      memberVideo("#dominik-thomas", "#dominik-thomas-popup", "#dominik-thomas-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-dominik-thomas.webm");
      memberVideo("#julia", "#julia-popup", "#julia-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-julia.webm");
@@ -88,6 +70,22 @@ function memberVideo(click, popup, video, src) {
      memberVideo("#melanie-schreiber", "#melanie-schreiber-popup", "#melanie-schreiber-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-melanie-schreiber.webm");
      memberVideo("#larissa", "#larissa-popup", "#larissa-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-larissa.webm");
      memberVideo("#zehra-bozyigit", "#zehra-bozyigit-popup", "#zehra-bozyigit-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-zehra-bozyigit.webm");
+  } else { 
+     // not Google Chrome
+     memberVideo("#jana-hilmert-thomas", "#jana-hilmert-thomas-popup", "#jana-hilmert-thomas-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-jana-hilmert-thomas.mp4");
+     memberVideo("#dominik-thomas", "#dominik-thomas-popup", "#dominik-thomas-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-dominik-thomas.mp4");
+     memberVideo("#julia", "#julia-popup", "#julia-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-julia.mp4");
+     memberVideo("#heike-schwartze", "#heike-schwartze-popup", "#heike-schwartze-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-heike-schwartze.mp4");
+     memberVideo("#lillian-kehler", "#lillian-kehler-popup", "#lillian-kehler-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-lillian-kehler.mp4");
+     memberVideo("#christiane-schneidewind", "#christiane-schneidewind-popup", "#christiane-schneidewind-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-christiane-schneidewind.mp4");
+     memberVideo("#julia-kretschmar", "#julia-kretschmar-popup", "#julia-kretschmar-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-julia-kretschmar.mp4");
+     memberVideo("#friederike-steckel", "#friederike-steckel-popup", "#friederike-steckel-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-friederike-steckel.mp4");
+     memberVideo("#birte-kopschek", "#birte-kopschek-popup", "#birte-kopschek-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-birte-kopschek.mp4");
+     memberVideo("#selina-scherer", "#selina-scherer-popup", "#selina-scherer-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-selina-scherer.mp4");
+     memberVideo("#kyra-kuchenbecker", "#kyra-kuchenbecker-popup", "#kyra-kuchenbecker-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-kyra-kuchenbecker.mp4");
+     memberVideo("#melanie-schreiber", "#melanie-schreiber-popup", "#melanie-schreiber-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-melanie-schreiber.mp4");
+     memberVideo("#larissa", "#larissa-popup", "#larissa-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-larissa.mp4");
+     memberVideo("#zehra-bozyigit", "#zehra-bozyigit-popup", "#zehra-bozyigit-video", "https://assets.agentur-kaufmann.de/ergotherapie-brackwede/interview-zehra-bozyigit.mp4");
   }
   
   memberImage("#meera-thavarajah", "#meera-thavarajah-popup");
